@@ -1,0 +1,27 @@
+name: event_planner_app
+description: My Event Planner (Project UTS) - contoh implementasi
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  # image_picker biasanya tersedia; jika error versi, turunkan/naikkan versinya sesuai saran pub.
+  image_picker: ^1.1.2
+  path_provider: ^2.0.11
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/default_event.png
